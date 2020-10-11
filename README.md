@@ -1,6 +1,7 @@
 # growtopiaforums-dark
 
 [![Build Status](https://img.shields.io/badge/build-passing-green)](https://github.com/AykutSarac/growtopiaforums-dark)
+
 A Google Chrome Dark Theme extension made for Growtopia Forums.
 
 
