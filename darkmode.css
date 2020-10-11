@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+
+body {
+    background-image: url("https://www.growtopiagame.com/forums/filedata/fetch?id=6703643") !important;
+    font-family:'Century Gothic','Futura','Didact Gothic',san-serif !important;
+}
+
+.topic-list-container .topic-list .topic-item.sticky {
+    color: rgb(41, 11, 11)!important;
+    font-weight: bold !important;
+    background-color: rgba(27, 40, 61, 0.842) !important;
+}
+
+.prefix {
+    font-weight: bold !important;
+}
+
+
+.sticky .topic-title {
+    color: rgb(196, 196, 196) !important;
+}
+
+.forum-title {
+    color: rgb(194, 194, 194) !important;
+}
+
+.forum-item, .topic-item {
+    color: gray !important;
+    background-color: rgb(46, 46, 46) !important;
+}
+
+.forum-item a {
+    color: lightgray !important;
+}
+
+body:not(.cke_editable) {
+    background-size: auto !important;
+}
+
+
+.cell-forum:hover {
+    cursor: pointer;
+    background-color: darkslategray;
+    transition: 0.15s;
+}
+
+.cell-forum:hover .forum-title {
+    color: whitesmoke !important;
+}
+
+.topic-item.sticky .topic-info a {
+    color: rgb(167, 0, 158) !important;
+}
+
+.topic-item .topic-info a, .lastpost-by a {
+    color: rgb(170, 170, 170) !important;
+}
+
+.topic-title, time, .usertitle, .b-userinfo__additional-info-block.h-margin-top-xl, .b-comp-menu-horizontal li, .votecount, .b-link, .b-post__count, div.b-post__timestamp {
+    color: rgb(226, 226, 226) !important;
+}
+
+.topic-item:hover {
+    background-color: rgb(47, 79, 79) !important;
+    border-radius: 2% !important;
+}
+
+div.spoiler, .bbcode_quote {
+    background-color: darkslategrey !important;
+    color: floralwhite !important;
+    padding: 5px;
+    border-radius: 1%;
+}
+
+.bbcode_quote span, .js-post__content-text span {
+    color: rgb(192, 192, 192) !important;
+    background: transparent !important;
+}
+
+
+li.ui-tabs-active, .conversation-toolbar, .forum-list-header {
+    color: wheat !important;
+    background-color: black !important;
+}
+
+#htmlTag .notices {
+    background-color: rgba(255, 255, 255, 0.349) !important;
+}
+
+.widget-tabs .widget-tabs-nav li.ui-tabs-active a {
+    outline: none !important;
+    color: white !important;
+}
+
+.private-message-widget .main-pane .main-pane-header, .forum-list-container .category-header, #footer-tabbar, .topic-list-container .topic-list-header, .notice, .b-toolbar, .b-post__label, .js-edit-profile.edit-profile, .b-button--primary-light, .b-button--primary-light:link, .b-button--primary-light:visited, .b-button--primary, #htmlTag .dialog-container.ui-dialog .ui-dialog-titlebar, #btnConfirmDialogYes, #btnConfirmDialogNo, #btnAlertDialogOK, .b-content-entry-panel.js-content-entry-panel {
+    outline: none !important;
+    color: white !important;
+    background-color: darkslategrey !important;
+    border: transparent !important;
+}
+
+
+#btnConfirmDialogYes:hover, #btnConfirmDialogNo:hover, #btnAlertDialogOK:hover, .b-button:hover {
+    background-color: white !important;
+    color: black !important;
+    outline: none !important;
+    border-color: black !important;
+}
+
+.b-comp-menu-dropdown__trigger--headerbar {
+    color: #ff0 !important;
+}
+
+.conversation-content-widget .list-container .list-item .list-item-body-wrapper, .post-content, .b-post-control__label {
+    background: transparent !important;
+    color: whitesmoke !important;
+}
+
+.b-post__body {
+    border-top: rgb(72, 73, 72) 2rem solid !important;
+}
+
+.forum-title:hover, .js-comments__total-text.h-align-top {
+    color: black !important;
+}
+
+.notice.restore > a {
+    color: lightgreen !important;
+}
+
+.b-post__body a {
+    color: peru !important;
+}
+
+.b-icon {
+    color: #ff0 !important;
+}
+
+#htmlTag .conversation-toolbar-wrapper .conversation-toolbar .toolset-left > li .button, #htmlTag .conversation-toolbar-wrapper .conversation-toolbar .toolset-left > li .b-button, button[type="submit"] {
+    background-color: rgb(0, 0, 0) !important;
+    color: rgb(255, 255, 255) !important;
+    font-weight: bold !important;
+    border: whitesmoke 1px solid !important;
+}
+
+button[type="submit"]:hover {
+    background-color: lightblue !important;
+    transition: 0.25s;
+}
+
+.pre-spoiler > input, .qtip {
+    margin-top: 0.7rem !important;
+    background-color: slategrey !important;
+    border-radius: 2px !important;
+    color: white !important;
+    font-weight: bold !important;
+    border: 3px solid #a8a8a8 !important;
+}
+
+.h-left.profilePreviewContainer {
+    background-color: rgba(43, 43, 43, 0.897) !important;
+}
+
+.b-post__hide-when-deleted {
+    color: lightgray !important;
+}
+
+.pre-spoiler > input:hover {
+    background-color: darkslategray !important;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.topic-title:hover {
+    color: rgb(108, 0, 158) !important;
+    transition: 0.1s;
+}
+
+#channel-tabbar a {
+    color: white !important;
+}
+
+h1 {
+    font-weight: bold !important;
+}
+
+#htmlTag #channel-tabbar {
+    background: url(https://s3.eu-west-1.amazonaws.com/cdn.growtopiagame.com/forums/theme/v2/Assets/Theme/Grow_forum_header_bottom.png) repeat-x 0 0,rgba(255, 255, 255, 0.349) !important;
+}
+
+#content, .b-post, #breadcrumbs {
+    background: rgba(255, 255, 255, 0.349) !important;
+}
+
+.b-post {
+    color: gray !important;
+    background: rgba(43, 43, 43, 0.836) !important;
+}
+
+.b-post a, .b-post__date {
+    color: white !important;
+}
+
+.crumb {
+    font-weight: bold !important;
+    color: black !important;
+}
+
+.b-post__body {
+    color: rgb(219, 215, 215) !important;
+    background: rgba(43, 43, 43, 0.836) !important;
+}
+
+#htmlTag #channel-subtabbar {
+    border-bottom: white .4em solid;
+    background: transparent !important;
+}
+
+.ui-state-default:hover {
+    transition: .25s;
+    background-color: black !important;
+}
+
+#htmlTag #channel-subtabbar a {
+    padding: 0 1em 0 1em;
+    color: orange !important;
+    font-weight: 600 !important;
+}
+
+#htmlTag .canvas-layout-container .canvas-widget {
+    margin-top: -10px !important;
+}
+
+#htmlTag #channel-subtabbar a:hover {
+    background-color: black !important;
+    transition: .2s;
+    color: yellow !important;
+    font-weight: bold !important;
+    padding: 0 1em 0 1em;
+    border-radius: 20px !important;
+}
+
+/* Copyright (c) 2020 */

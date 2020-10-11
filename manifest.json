@@ -1,0 +1,28 @@
+{
+  "name": "Growtopia Forums Dark Theme",
+  "version": "0.4.2",
+  "description": "Growtopia Forums Dark Theme by Phemus!",
+  "icons": {
+    "16": "./16.png",
+    "32": "./32.png",
+    "48": "./48.png",
+    "128": "./128.png"
+  },
+  "permissions": [
+    "http://www.growtopiagame.com/*",
+    "https://www.growtopiagame.com/*"
+  ],
+  "content_scripts": [{
+    "matches": ["http://www.growtopiagame.com/*", "https://www.growtopiagame.com/*"],
+    "js": ["general.js"],
+    "css": ["darkmode.css", "general.css"],
+    "runAt": "document_start"
+  }], "web_accessible_resources": [
+    "darkmode.css", "general.css"
+],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+}

@@ -1,0 +1,65 @@
+.b-post__title {
+    color: whitesmoke !important;
+    font-size: 2rem !important;
+    font-weight: bold !important;
+}
+
+a {
+    font-weight: bold;
+}
+
+a, img, div, input {
+    outline: none !important;
+    border: none !important;
+}
+
+.offline::after {
+    color: gray !important;
+    content: " (Offline)" !important;
+    font-size: 14px;
+    font-weight: normal !important;
+}
+
+.online::after {
+    color: green !important;
+    content: " (Online)" !important;
+    font-size: 14px;
+    font-weight: normal !important;
+}
+
+  #htmlTag .forum-list-container .forum-item td {
+    padding: 7px 0 0 7px !important;
+}
+
+.post-signature {
+    border-top: darkslategrey 1px solid !important;
+}
+
+.widget-tabs .widget-tabs-nav li {
+    outline: none !important;
+}
+
+.cell-topic:hover {
+    cursor: pointer;
+}
+
+#header .site-logo::after {
+    /* By changing the content below, removing/editing completely or modifying indirectly reselling or introducing without taking permission from official owner is considered as copyright violation. */
+    display: flex;
+    content: "Growtopia Forums Theme by Phemus";
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+.b-sharing-menu {
+    visibility: hidden;
+}
+
+.js-edit-profile.edit-profile {
+    position: relative;
+}
+
+
+
+/* Copyright (c) 2020 luffyshack@gmail.com */
