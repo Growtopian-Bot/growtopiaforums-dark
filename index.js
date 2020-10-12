@@ -15,5 +15,3 @@ if (typeof topicLink === 'undefined' || typeof topicTarget === 'undefined') {
         topicTarget[index].setAttribute("onclick", "window.location=" + "'"+ topicLink[index] + "'");
     }
 }
-
-/** Copyright (c) 2020 luffyshack@gmail.com */
