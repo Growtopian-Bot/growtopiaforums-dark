@@ -5,14 +5,52 @@ body {
     font-family:'Century Gothic','Futura','Didact Gothic',san-serif !important;
 }
 
-.topic-list-container .topic-list .topic-item.sticky {
-    color: rgb(41, 11, 11)!important;
+.topic-list-container .topic-list .topic-item.sticky, #htmlTag #profileTabs .tab.widget-tabs-panel {
+    color: grey !important;
     font-weight: bold !important;
-    background-color: rgba(27, 40, 61, 0.842) !important;
+    background-color: #212121 !important;
+}
+
+.profile-widget .widget-tabs.ui-tabs .ui-widget-content a, .profile-widget .widget-tabs.ui-tabs .ui-widget-content a:active, .profile-widget .widget-tabs.ui-tabs .ui-widget-content a:visited {
+    color: #E8E8E8 !important;
+}
+
+.private-message-widget .main-pane .message-list.pm-notification-list .message-item.notification-unread, .private-message-widget .last-notification-unread {
+    background-color: rgba(255, 255, 255, 0.349) !important;
 }
 
 .prefix {
     font-weight: bold !important;
+}
+
+#htmlTag .notifications-count {
+    background: deepskyblue none !important;
+    color: rgb(65, 65, 65) !important;
+}
+
+.b-top-menu.b-top-menu--user.js-top-menu-user--list.js-shrink-event-parent {
+    border-radius: 5px !important;
+    background-color: rgba(43, 43, 43, 0.836) !important;
+}
+
+.h-left.js-header__notifications-label.h-margin-left-s:nth-child(2)::before {
+    content: "Notifications";
+    color: rgb(255, 255, 255);
+    position: absolute !important; 
+}
+
+.h-left.js-pmchat__messages-label.h-margin-left-m {
+    content: "Messages";
+    color: rgb(255, 255, 255);
+    font-weight: bold !important; 
+}
+
+.b-comp-menu-dropdown__trigger--headerbar {
+    opacity: 0.8;
+}
+
+#htmlTag .notifications-count::after {
+    content: 'New';
 }
 
 
@@ -26,7 +64,7 @@ body {
 
 .forum-item, .topic-item {
     color: gray !important;
-    background-color: rgb(46, 46, 46) !important;
+    background-color: #353535 !important;
 }
 
 .forum-item a {
@@ -78,7 +116,8 @@ div.spoiler, .bbcode_quote {
 }
 
 
-li.ui-tabs-active, .conversation-toolbar, .forum-list-header {
+li.ui-tabs-active, .conversation-toolbar, .section-header, .forum-list-header {
+    padding-left: 1rem !important;
     color: wheat !important;
     background-color: black !important;
 }

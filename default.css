@@ -46,6 +46,7 @@ a, img, div, input {
 #header .site-logo::after {
     /* By changing the content below, removing/editing completely or modifying indirectly reselling or introducing without taking permission from official owner is considered as copyright violation. */
     display: flex;
+    text-align: center;
     content: "Growtopia Forums Theme by Phemus";
     font-weight: bold;
     font-size: 20px;

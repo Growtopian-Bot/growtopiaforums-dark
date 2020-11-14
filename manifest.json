@@ -1,7 +1,7 @@
 {
   "name": "Growtopia Forums Dark Theme",
-  "version": "0.4.2",
-  "description": "Growtopia Forums Dark Theme by Phemus!",
+  "version": "1.0.0",
+  "description": "This is an Google Chrome extension that will change the appearance of Growtopia Forums website layout to dark theme.",
   "icons": {
     "16": "./assets/16.png",
     "32": "./assets/32.png",
@@ -15,7 +15,7 @@
   "content_scripts": [{
     "matches": ["http://www.growtopiagame.com/*", "https://www.growtopiagame.com/*"],
     "js": ["index.js"],
-    "css": ["darkmode.css", "general.css"],
+    "css": ["darkmode.css", "default.css"],
     "runAt": "document_start"
   }], "web_accessible_resources": [
     "darkmode.css", "default.css"
