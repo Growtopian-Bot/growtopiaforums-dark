@@ -139,6 +139,16 @@ li.ui-tabs-active, .conversation-toolbar, .section-header, .forum-list-header {
 }
 
 
+.b-comment-entry {
+    background-color: rgba(43, 43, 43, 0.897) !important;
+    color: black;
+}
+
+.b-comment-entry h2 {
+    color: white;
+}
+
+
 #btnConfirmDialogYes:hover, #btnConfirmDialogNo:hover, #btnAlertDialogOK:hover, .b-button:hover {
     background-color: white !important;
     color: black !important;
