@@ -1,6 +1,6 @@
 {
   "name": "Growtopia Forums Dark Theme",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This is an Google Chrome extension that will change the appearance of Growtopia Forums website layout to dark theme.",
   "icons": {
     "16": "./assets/16.png",
